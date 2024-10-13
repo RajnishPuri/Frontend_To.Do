@@ -1,0 +1,32 @@
+.scrollable {
+    scrollbar-width: thin; 
+    scrollbar-color: #7f7f7f #1e1e1e; 
+}
+
+.scrollable::-webkit-scrollbar {
+    width: 8px; 
+    background: #1e1e1e; 
+}
+
+.scrollable::-webkit-scrollbar-thumb {
+    background-color: #7f7f7f; 
+    border-radius: 10px; 
+}
+
+.scrollable::-webkit-scrollbar-thumb:hover {
+    background-color: #9f9f9f;
+}
+
+.sign-out-btn {
+    background-color: #e63946; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sign-out-btn:hover {
+    background-color: #d62839; 
+}
